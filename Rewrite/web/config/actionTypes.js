@@ -1,0 +1,13 @@
+export const REFRESH_TOKEN = 'REFRESH_TOKEN';
+export const SET_TOKEN = 'SET_TOKEN';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_USER = 'LOGIN';
+export const REGISTER_USER = 'REGISTER';
+export const USER_ERROR = 'USER_ERROR';
+export const CREATE_ROOM = 'CREATE_ROOM';
+export const ADD_ROOM_CLIENT = 'ADD_ROOM_CLIENT';
+export const ROOM_ERROR = 'ROOM_ERROR';
+export const GET_ME = 'GET_ME';
+export const GET_CLIENTS = 'GET_CLIENTS';
+export const GET_MY_CLIENT = 'GET_MY_CLIENT';
+export const CHANGE_PEERS = 'CHANGE_PEERS';

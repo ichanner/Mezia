@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php-ffmpeg/php-ffmpeg": "^0.16.0",
+        "socialapis/youtubedownloader": "^1.0"
+    }
+}

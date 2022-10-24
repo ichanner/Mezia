@@ -1,0 +1,11 @@
+export const BASE_URL = 'http://localhost:3001';
+export const WEBSOCKET_URL = 'ws://localhost:3001';
+export const LOGIN_USER_ENDPOINT = '/api/v1/user/login';
+export const REGISTER_USER_ENDPOINT = '/api/v1/user/register';
+export const REFRESH_TOKEN_ENDPOINT = '/api/v1/auth/refresh_token';
+export const ROOM_CREATE_ENDPOINT = '/api/v1/room/create';
+export const ROOM_ADD_CLIENT_ENDPOINT = '/api/v1/room/add_client';
+export const GET_ME_ENDPOINT = '/api/v1/user/me';
+export const GET_MY_CLIENT_ENDPOINT = '/api/v1/room/my_client';
+export const GET_CLIENTS_ENDPOINT = '/api/v1/room/clients';
+export const CHANGE_PEERS_ENDPOINT = '/api/v1/room/change_peers';

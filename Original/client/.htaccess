@@ -1,0 +1,21 @@
+#remove php file extension-e.g. https://example.com/file.php will become https://example.com/file 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
+
+Header set Access-Control-Allow-Origin "*"
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:udaDeH
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE udaDeH:ERRORPAGEID
+
+
+
+Header always set Content-Security-Policy: upgrade-insecure-requests
+
+
+
+
+

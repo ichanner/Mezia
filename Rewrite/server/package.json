@@ -1,0 +1,37 @@
+{
+  "name": "mezia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "homepage": ".",
+  "scripts": {
+    "start": "babel-node ./app.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.13.0",
+    "argon2": "^0.27.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.4",
+    "container": "0.0.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "path": "^0.12.7",
+    "peer": "^0.6.1",
+    "randombytes": "^2.1.0",
+    "shortid": "^2.2.16",
+    "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9"
+  },
+  "author": "Ian Channer Logan Simons",
+  "license": "ISC"
+}

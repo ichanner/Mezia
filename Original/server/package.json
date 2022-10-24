@@ -1,0 +1,28 @@
+{
+    "name": "elephantIO_example_emitter_with_headers",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ChatServer.js"
+    },
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "express": "^4.17.1",
+        "express-ws": "^4.0.0",
+        "fs": "0.0.1-security",
+        "multer": "^1.4.2",
+        "nodemon": "^2.0.6",
+        "peer": "^0.6.1",
+        "socket.io": "^2.3.0",
+        "util": "^0.12.3",
+        "winston": "2.4.4",
+        "ws": "^7.4.0",
+        "xmlhttprequest": "^1.8.0"
+    },
+    "devDependencies": {
+        "webpack": "^4.42.0",
+        "webpack-dev-server": "^3.10.3"
+    },
+    "author": "The One",
+    "license": "ISC"
+}
